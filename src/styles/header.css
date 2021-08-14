@@ -1,0 +1,56 @@
+.container-fluid {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #242526;
+}
+.container-fluid .header {
+    display: flex;
+    width: 33.33%;
+    padding: 5px;
+    flex: 1;
+    align-items: center;
+}
+.container-fluid ._start {
+    justify-content: flex-start;
+    
+}
+.container-fluid ._center {
+    justify-content: center;
+}
+.container-fluid ._end {
+    justify-content: flex-end;
+}
+.wapper-icon {
+    background-color: #0b8af0;
+    margin-right: 20px;
+    padding: 6px;
+    border-radius: 30px;
+}
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+    background-color: #3a3b3c;
+    border-radius: 50px;
+    padding: 6px 10px 6px 10px;
+}
+.search-bar .input {
+    padding: 2px;
+    background-color: #3a3b3c;
+    border-width: 0px;
+    width: 200px;
+}
+.w-icon {
+    width: 20%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.w-icon:hover {
+    background-color: dimgray;
+}
